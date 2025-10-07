@@ -6,7 +6,9 @@ I also learned how to set up future builds for release on Itch.io.
 The resulting product is a cat on a new start platform, the cat game object can now move, with an increased turning speed. And finally, the camera has been shifted into the first person perspective.
 
 ### W2
-Create future Devlog sub-headers with the three # symbols, then write your Devlogs below them.
+r,g, and b are floats because they contain decimals. They're not whole numbers or true/false statements or dialogue text. 
+_bounce is a whole number/int because it's counting total bounces. 
+it was a compiler error, essentially noting that a semicolon was missing from the line. 
 
 ## Open-Source Assets
 ### W1
