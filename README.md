@@ -10,6 +10,16 @@ r,g, and b are floats because they contain decimals. They're not whole numbers o
 _bounce is a whole number/int because it's counting total bounces. 
 it was a compiler error, essentially noting that a semicolon was missing from the line. 
 
+### W3
+Table 7 Discussion
+2. 
+Y= Friendship level X=Boolean True/false 
+output is a string
+Continuing with the theme of food, A class is the recipe, a component is the cooked dish, the member variables are the ingredients and the flavor choices, and 
+the methods are the cooking steps/actions.
+The balls get bright because the multipler stacks on every bounce instead of resetting, compounding the color values beyond what's normal.
+
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
