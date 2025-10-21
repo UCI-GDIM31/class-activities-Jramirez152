@@ -20,6 +20,15 @@ the methods are the cooking steps/actions.
 The balls get bright because the multipler stacks on every bounce instead of resetting, compounding the color values beyond what's normal.
 
 
+### W4
+Table 7
+Line 5 makes the movement speed editable in the unity inspector so you can tune it on the fly. 
+Line 22 gets the player's vertical input and multiplies it by the move speed and time delta time so movement isn't effected by the framerate?
+Line 25 idk tbh. I think this is for like moving a gameObject.
+
+I chose to make the cat and the ball rigid bodies because they interact more with the world and each other. I gave the goal box a IsTrigger because I figured the goal would just 
+be a lil threshold to detect the ball. 
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
