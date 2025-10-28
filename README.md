@@ -29,6 +29,18 @@ Line 25 idk tbh. I think this is for like moving a gameObject.
 I chose to make the cat and the ball rigid bodies because they interact more with the world and each other. I gave the goal box a IsTrigger because I figured the goal would just 
 be a lil threshold to detect the ball. 
 
+### W5
+Table 7
+Activity 1
+Q: How do vectors relate to the "Transform" component in Unity?
+A: Vectors basically describe direction and distance in like a 3D space
+Transform just stores a thing's position, rottion, and scale as vectors.
+Activity 2
+Planning Phase
+Member Variables: _target _agent
+Method: Start()
+Start() opens and use getcomponent<NavMeshAgent>() then assign the agent. 
+then use _agent.SetDestination(_Target.position) and HOPEFULLY the thing moves.
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
