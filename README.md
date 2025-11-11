@@ -41,6 +41,16 @@ Member Variables: _target _agent
 Method: Start()
 Start() opens and use getcomponent<NavMeshAgent>() then assign the agent. 
 then use _agent.SetDestination(_Target.position) and HOPEFULLY the thing moves.
+### W6
+---
+
+### W7
+https://docs.google.com/document/d/1XzvvYQoA_vMfFCcPY22iyql93NnrTL6rIcFjK30dwm8/edit?usp=sharing
+Role: Environment/Gameplay
+
+The original code used Vector3.forward so no matter the orientation, the muskrat would move the same in 
+world space rather than moving the direction it was rotated to face. Transform.forward makes it move relative to direction.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
